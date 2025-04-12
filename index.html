@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tetris</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.13.1/underscore-min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.4.0/backbone-min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Tetris</h1>
+<p>Implementation of Tetris in backbone.js</p>
+<div id="controls">
+<button id="pause">Pause (p)</button>
+<button id="mute">Mute (m)</button>
+<button id="new_game">New Game (n)</button>
+</div>
+<div id="board">
+<canvas width="300" height="500"></canvas>
+<div id="gridContainer">
+<div class="grid"></div>
+</div>
+<div id="message"></div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
